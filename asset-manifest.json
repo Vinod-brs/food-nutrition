@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/food-nutrition/static/css/main.79a56351.css",
-    "main.js": "/food-nutrition/static/js/main.3571a0bd.js",
+    "main.js": "/food-nutrition/static/js/main.ed69b280.js",
     "static/js/453.e310a474.chunk.js": "/food-nutrition/static/js/453.e310a474.chunk.js",
     "index.html": "/food-nutrition/index.html",
     "main.79a56351.css.map": "/food-nutrition/static/css/main.79a56351.css.map",
-    "main.3571a0bd.js.map": "/food-nutrition/static/js/main.3571a0bd.js.map",
+    "main.ed69b280.js.map": "/food-nutrition/static/js/main.ed69b280.js.map",
     "453.e310a474.chunk.js.map": "/food-nutrition/static/js/453.e310a474.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79a56351.css",
-    "static/js/main.3571a0bd.js"
+    "static/js/main.ed69b280.js"
   ]
 }
