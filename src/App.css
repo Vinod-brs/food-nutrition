@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #1A4B84;
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+  font-size: small;
+}
+
+/* Header Styles
+-------------------------------------------------- */
+header{
+  margin-bottom: 40px;
+}
+header .bg-gradient {
+  background: rgb(216, 216, 216);
+}
+
+header .navbar {
+  padding: 20px 0 0;
+}
+
+header .navbar-brand {
+  padding: 0;
+  z-index: 1;
+  width: 213px;
+  height: 145px;
+  background-color: var(--primary-color);
+}
+
+header .navbar-brand img {
+  width: 56px;
+}
+
+header h3 {
+  font: normal normal 600 18px/27px Oswald;
+  color: #fff;
+}
+
+header h4 {
+  font: normal normal 600 18px/28px Oswald;
+  letter-spacing: 0.36px;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+
+.JsTitle {
+  background-color: #838383;
+  height: 50px;
+  font: normal normal 600 19px/27px Oswald;
+  letter-spacing: 0.38px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.JsTitle img {
+  width: 25px;
+  margin-right: 10px;
+} 
+
+.link{
+  height: 10px;
+  margin-right: 4px
+}
+
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  margin-top: 16em;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  
+}
+
+
+
+.footer-dark {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+footer {
+  font: normal normal 600 12px/19px Oswald;
+  letter-spacing: 0.24px;
+  color: #FFFFFF;
+}
+
+td img {
+  height: auto;
+  width: 5em;
+}
