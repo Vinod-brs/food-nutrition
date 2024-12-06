@@ -155,14 +155,7 @@ export const Home = () => {
 
   return (
     <>
-      {
-        Load && 
-        <div className="text-center" >
-          <span className="spinner-grow my-3 me-3 text-success  p-1" role="status"></span> 
-          <span className="spinner-border m-2 text-info  p-4" role="status"></span> 
-          <span className="spinner-grow my-3 ms-3 text-success  p-1" role="status"></span> 
-        </div> 
-      }
+      
       <div className="row mx-4">
         <div className="col col-8 mt-4">
           <div className="row">
@@ -179,7 +172,14 @@ export const Home = () => {
               {noFoodFound && <h5 className='text-danger'>{noFoodFound}</h5>}
             </div>
             <div className="col col-12 mt-4">
-            
+            {
+              Load && 
+              <div className="text-center" >
+                <span className="spinner-grow my-3 me-3 text-success  p-1" role="status"></span> 
+                <span className="spinner-border m-2 text-info  p-4" role="status"></span> 
+                <span className="spinner-grow my-3 ms-3 text-success  p-1" role="status"></span> 
+              </div> 
+            }
               {!!foodData.length &&
                 <>
                   <div className="col col-8 mt-4">
